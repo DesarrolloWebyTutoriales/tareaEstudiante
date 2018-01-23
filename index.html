@@ -1,0 +1,287 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Dina Pezo | Programadora y diseñadora grafica digital</title>
+		<meta charset="utf-8">
+		<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<script src="js/jquery.min.js"></script>
+		 <!-- Custom Theme files -->
+		<link href="css/style.css" rel='stylesheet' type='text/css' />
+   		 <!-- Custom Theme files -->
+   		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+		</script>
+		<!--webfonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,700,800,400,600' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+		<!-- //webfonts -->
+	</head>
+	<body>
+		<!-- container -->
+			
+			<!-- header -->
+			<div class="header">
+				<div class="container">
+				<!-- logo -->
+				<div class="logo">
+					<a href="index.html"><img src="images/logo.png" title="baku" /></a>
+				</div>
+				<!-- logo -->
+				<!-- cart-info -->
+				<div class="cart-info">
+					<p style="color: #FFF;">El camino hacia el exito de seguir adelante</p>
+				</div>
+				<!-- /cart-info -->
+			</div>
+			<!-- header -->
+			
+		</div>
+		<!-- sub-header -->
+		<div class="sub-header">
+			<div class="container">
+				<!-- top-nav -->
+				<div class="top-nav">
+					<span class="menu"> 
+						<img src="images/nav-icon.png" alt="">
+					</span>
+					<ul>
+						<li class="active"><a href="index.html">Inicio</a></li>
+						<li><a href="quien-soy.html">Quien soy</a></li>
+						<li><a href="informatica.html">Informática</a></li>
+						<li><a href="contactenos.html">Contáctenos</a></li>
+						<div class="clearfix"> </div>
+					</ul>
+				</div>
+				<!-- top-nav -->
+				<!-- script-for-nav -->
+				<script>
+					$(document).ready(function(){
+						$("span.menu").click(function(){
+							$(".top-nav ul").slideToggle(300);
+						});
+					});
+				</script>
+				<!-- script-for-nav -->
+			</div>
+		</div>
+		<!-- /sub-header -->
+		<!-- banner -->
+		<div class="banner">
+			<!--- img-slider -->
+				<div class="img-slider">
+						<!-- start-slider-script -->
+					<script src="js/responsiveslides.min.js"></script>
+					 <script>
+					    // You can also use "$(window).load(function() {"
+					    $(function () {
+					      // Slideshow 4
+					      $("#slider4").responsiveSlides({
+					        auto: true,
+					        pager: true,
+					        nav: true,
+					        speed: 500,
+					        namespace: "callbacks",
+					        before: function () {
+					          $('.events').append("<li>before event fired.</li>");
+					        },
+					        after: function () {
+					          $('.events').append("<li>after event fired.</li>");
+					        }
+					      });
+					    });
+					  </script>
+					<!-- //End-slider-script -->
+					<!-- Slideshow 4 -->
+					    <div  id="top" class="callbacks_container">
+					      <ul class="rslides" id="slider4">
+					        <li>
+					          <img class="img-responsive" src="images/slide.jpg" alt="">
+					        </li>
+					        <li>
+					          <img src="images/slide2.jpg" alt="">
+					        </li>
+					        <li>
+					          <img src="images/slide3.jpg" alt="">
+					        </li>
+					      </ul>
+					    </div>
+					    <div class="clearfix"> </div>
+					</div>
+						<!-- slider -->
+		</div>
+		<!-- banner -->
+		<!-- content -->
+		<div class="content">
+			<!-- top-grids -->
+			<div class="top-grids">
+			<div class="container">
+				<div class="product-grids">
+					<!-- sreen-gallery-cursual -->
+					 <!-- requried-jsfiles-for owl -->
+					<link href="css/owl.carousel.css" rel="stylesheet">
+					    <script src="js/owl.carousel.js"></script>
+					        <script>
+					    $(document).ready(function() {
+					      $("#owl-demo").owlCarousel({
+					        items : 5,
+					        lazyLoad : true,
+					        autoPlay : true,
+					        navigation : true,
+					        navigationText :  false,
+					        pagination : false,
+					      });
+					    });
+					    </script>
+						<!-- //requried-jsfiles-for owl -->
+						<!-- start content_slider -->
+						<div id="owl-demo" class="owl-carousel text-center">
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="http://php.net/manual/es/intro-whatis.php" target="_blank"><img src="images/pic2.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>lenguaje php</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="https://www.mysql.com/" target="_blank"><img src="images/pic3.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>base de datos mysql</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="https://www.microsoft.com/net" target="_blank"><img src="images/pic4.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>microsoft .net</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="https://www.java.com/es/" target="_blank"><img src="images/pic5.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>java</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="http://perulinux.pe/" target="_blank"><img src="images/pic6.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>linux</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="https://www.w3schools.com/html/html5_intro.asp" target="_blank"><img src="images/pic7.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>html5</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="http://developerji.com/Post/Maquetar-nuestra-pagina-con-CSS-y-Divs/2059" target="_blank"><img src="images/pic8.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>maquetacion en html5</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="http://php.net/manual/es/book.mysql.php" target="_blank"><img src="images/pic9.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>php y mysql</p>
+									</div>
+								</div>
+						    </div>
+						    <div class="item">
+						    	<div class="product-grid">
+									<div class="product-pic">
+										<a href="https://www.w3schools.com/css/css3_intro.asp" target="_blank"><img src="images/pic10.jpg" title="name" /></a>
+									</div>
+									<div class="product-pic-info">
+										<p>css3</p>
+									</div>
+								</div>
+						    </div>
+						</div>
+				</div>
+			</div>
+		</div>
+		<!-- top-grids -->
+		<!-- content -->
+		<!-- footer -->
+		<div class="footer">
+			<div class="footer-grids">
+				<div class="container">
+					<div class="col-md-3 footer-grid">
+						<h4>Servicios</h4>
+						<ul>
+							<li><a href="#">Pagina web</a></li>
+							<li><a href="#">Desarollo de sistemas</a></li>
+							<li><a href="#">Diseño grafico</a></li>
+							<li><a href="#">Social media</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Informatica</h4>
+						<ul>
+							<li><a href="informatica.html">Visual Basic.Net</a></li>
+							<li><a href="informatica.html">PHP</a></li>
+							<li><a href="informatica.html">Java</a></li>
+							<li><a href="informatica.html">MS SQL Server</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid">
+						<h4>Mas detalles</h4>
+						<ul>
+							<li><a href="quien-soy.html">Acerca de mi</a></li>
+							<li><a href="contactenos.html">Donde me ubicas</a></li>
+						</ul>
+					</div>
+					<div class="col-md-3 footer-grid contact-grid">
+						<h4>Contáctenos</h4>
+						<ul>
+							<li><span class="c-icon"> </span>Julio delgado neyra 476, SMP</li>
+							<li><span class="c-icon1"> </span><a href="#">informes@maydadina.com</a></li>
+							<li><span class="c-icon2"> </span>PERU  (511) 452-2280</li>
+						</ul>
+						<ul class="social-icons">
+							<li><a href="https://www.facebook.com/profile.php?id=100007991917199" target="_blank"><span class="facebook"> </span></a></li>
+							<li><a href="https://www.twitter.com/" target="_blank"><span class="twitter"> </span></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- footer -->
+		<!-- copy-right -->
+		<div class="copy-right">
+				<p>Desarrollado por <a href="https://www.facebook.com/profile.php?id=100007991917199" target="_blank">Dina Pezo</a></p>
+		</div>
+		<!-- copy-right -->
+		<!-- container -->
+	</body>
+</html>
